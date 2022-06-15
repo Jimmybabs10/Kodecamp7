@@ -1,0 +1,10 @@
+GET http://localhost:3000/restricted
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkppbW15IiwiaWF0IjoxNjU1MjIyMzM5fQ.wzf51rMpLO0pCWkLCgkatvwSNRuT08vB4iaVOQsAIT0
+
+{
+    "username": "Jimmy",
+    "password": "abiola"
+}
+
+# eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkppbW15IiwiaWF0IjoxNjU1MjIyMzM5fQ.wzf51rMpLO0pCWkLCgkatvwSNRuT08vB4iaVOQsAIT0
